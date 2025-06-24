@@ -1,13 +1,12 @@
-
 import React from 'react';
 import './Pages.css';
 
 function PatientHistoryPage() {
-  // In a real application, you would fetch patient history data here
+  // again dear backend dev, after integration it should fetch patient history 
   const patientHistory = [
     { id: 1, date: '2025-04-15', filename: 'scan_1.jpg', result: 'No significant findings', confidentialityScore: 0.95 },
     { id: 2, date: '2025-03-20', filename: 'scan_2.png', result: 'Possible early-stage nodule', confidentialityScore: 0.88 },
-    // ... more history items
+    // ...uk... more history items
   ];
 
   return (
